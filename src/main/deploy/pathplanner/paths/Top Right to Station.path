@@ -1,0 +1,68 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 5.134,
+        "y": 2.909
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 3.708482142857143,
+        "y": 1.197935267857143
+      },
+      "isLocked": false,
+      "linkedName": "Top Right"
+    },
+    {
+      "anchor": {
+        "x": 1.0707589285714285,
+        "y": 0.969
+      },
+      "prevControl": {
+        "x": 1.2081470308840245,
+        "y": 1.1778648111648868
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Right Station"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [
+    {
+      "name": "Constraints Zone",
+      "minWaypointRelativePos": 0.5,
+      "maxWaypointRelativePos": 1.0,
+      "constraints": {
+        "maxVelocity": 2.0,
+        "maxAcceleration": 3.0,
+        "maxAngularVelocity": 540.0,
+        "maxAngularAcceleration": 720.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
+      }
+    }
+  ],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.0,
+    "maxAcceleration": 4.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 2.0,
+    "rotation": 53.0
+  },
+  "reversed": false,
+  "folder": "Auto Paths LOW",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 119.99999999999999
+  },
+  "useDefaultConstraints": true
+}
